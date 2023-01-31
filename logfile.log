@@ -1,0 +1,113 @@
+2023-02-01 01:31:45,532 INFO  [Log] login() PASSED 
+2023-02-01 01:32:05,198 INFO  [Log] search_a_product() PASSED 
+2023-02-01 01:32:14,537 INFO  [Log] select_all_products() PASSED 
+2023-02-01 01:32:45,989 INFO  [Log] select_a_product() PASSED 
+2023-02-01 01:32:50,140 INFO  [Log] add_product_to_cart() PASSED 
+2023-02-01 01:33:02,695 INFO  [Log] logOut() PASSED 
+2023-02-01 01:35:57,018 ERROR [Log] login() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#nav\-link\-accountList"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:27672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8e03de2ee47dd47ce9865b5dad3fef
+*** Element info: {Using=id, value=nav-link-accountList} 
+2023-02-01 01:36:08,327 ERROR [Log] search_a_product() FAILED with cause : element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 499). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" aria-labelledby="a-autoid-0-announce">
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:27672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8e03de2ee47dd47ce9865b5dad3fef 
+2023-02-01 01:36:17,397 INFO  [Log] select_all_products() PASSED 
+2023-02-01 01:36:32,674 ERROR [Log] select_a_product() FAILED with cause : element click intercepted: Element <span class="a-size-base-plus a-color-base a-text-normal">...</span> is not clickable at point (601, 438). Other element would receive the click: <p>...</p>
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:27672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8e03de2ee47dd47ce9865b5dad3fef 
+2023-02-01 01:36:33,733 ERROR [Log] add_product_to_cart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:27672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8e03de2ee47dd47ce9865b5dad3fef
+*** Element info: {Using=id, value=add-to-cart-button} 
+2023-02-01 01:36:50,512 ERROR [Log] logOut() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="nav-item-signout"]/span"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:27672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f8e03de2ee47dd47ce9865b5dad3fef
+*** Element info: {Using=xpath, value=//*[@id="nav-item-signout"]/span} 
+2023-02-01 01:38:13,526 INFO  [Log] login() PASSED 
+2023-02-01 01:38:30,178 INFO  [Log] search_a_product() PASSED 
+2023-02-01 01:38:39,102 INFO  [Log] select_all_products() PASSED 
+2023-02-01 01:39:13,202 INFO  [Log] select_a_product() PASSED 
+2023-02-01 01:39:13,760 INFO  [Log] add_product_to_cart() PASSED 
+2023-02-01 01:39:28,173 INFO  [Log] logOut() PASSED 
+2023-02-01 01:41:41,441 INFO  [Log] login() PASSED 
+2023-02-01 01:41:58,426 INFO  [Log] search_a_product() PASSED 
+2023-02-01 01:42:07,692 INFO  [Log] select_all_products() PASSED 
+2023-02-01 01:46:27,624 ERROR [Log] login() FAILED with cause : null 
+2023-02-01 01:46:38,424 ERROR [Log] search_a_product() FAILED with cause : element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (1088, 499). Other element would receive the click: <input id="sp-cc-accept" tabindex="1" name="accept" class="a-button-input celwidget" type="submit" value="all" data-csa-c-id="lj28d9-9mivao-l0cs6w-7rb6jp" aria-labelledby="a-autoid-0-announce" data-cel-widget="sp-cc-accept">
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:28045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aba92d29abd0239b84a34baf10c2f43 
+2023-02-01 01:46:46,463 ERROR [Log] select_all_products() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:28045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aba92d29abd0239b84a34baf10c2f43
+*** Element info: {Using=css selector, value=.a-size-base-plus.a-color-base.a-text-normal} 
+2023-02-01 01:47:00,516 ERROR [Log] select_a_product() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:28045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aba92d29abd0239b84a34baf10c2f43
+*** Element info: {Using=css selector, value=.a-size-base-plus.a-color-base.a-text-normal} 
+2023-02-01 01:47:00,551 ERROR [Log] add_product_to_cart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:28045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aba92d29abd0239b84a34baf10c2f43
+*** Element info: {Using=id, value=add-to-cart-button} 
+2023-02-01 01:47:00,581 ERROR [Log] logOut() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ATSJ28J', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\q\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:28045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aba92d29abd0239b84a34baf10c2f43
+*** Element info: {Using=id, value=nav-link-accountList} 
+2023-02-01 01:49:19,925 INFO  [Log] login() PASSED 
+2023-02-01 01:49:37,297 INFO  [Log] search_a_product() PASSED 
+2023-02-01 01:49:46,099 INFO  [Log] select_all_products() PASSED 
+2023-02-01 01:50:19,851 INFO  [Log] select_a_product() PASSED 
+2023-02-01 01:50:20,263 INFO  [Log] add_product_to_cart() PASSED 
+2023-02-01 01:50:35,451 INFO  [Log] logOut() PASSED 
+2023-02-01 02:07:42,327 INFO  [Log] login() PASSED 
+2023-02-01 02:07:59,576 INFO  [Log] search_a_product() PASSED 
+2023-02-01 02:08:08,416 INFO  [Log] select_all_products() PASSED 
+2023-02-01 02:08:40,630 INFO  [Log] select_a_product() PASSED 
+2023-02-01 02:08:44,807 INFO  [Log] add_product_to_cart() PASSED 
+2023-02-01 02:08:57,178 INFO  [Log] logOut() PASSED 
